@@ -18,12 +18,12 @@ MAGs were assembled from 3,810 human gut metagenomes from 15 different studies f
 [download link](http://bit.ly/HGM_hq_24345_fna)
 
 * High quality mags meet the following criterea:
-	* 	>=90% estimated completeness
+	*  \>=90% estimated completeness
 	*  <=5% estimated contamination
 	*  <=500 contigs
-	*  >=5kb average contig length
-	*  >=10kb contig N50
-	*  >=5x read depth over >=90% of contigs
+	*  \>=5kb average contig length
+	*  \>=10kb contig N50
+	*  \>=5x read depth over >=90% of contigs
 
 <b>High and medium quality MAGs (N=60664)</b>   
 [download link](http://bit.ly/HGM_all_60664_fna)
