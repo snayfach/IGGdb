@@ -6,13 +6,13 @@ We constructed the IGGdb using data from a number of domains, including PATRIC, 
 
 Note that many of the genomes in this repository were assembled from metagenomes. Lower quality genomes and MAGs need to be treated with special care to avoid issues with missingness, contamination, and short contigs. When in doubt, restrict your analysis to the high-quality genome sets.
 
-After download, all datasets can be unpacked using: `tar -xjvf <dataset>.tar.gz`
+After download, all datasets can be unpacked using: `tar -xjvf <dataset>.tar.bz2`
 
 And please do not download more data than is necessary. Thank you.
  
 ## Human Gut MAG (HGM) dataset
 
-MAGs were assembled from 3,810 human gut metagenomes from 15 different studies from geographically and phenotypically diverse human subjects. Metagenomes were assembled with MegaHIT and MAGs were constructed by binning contigs per-sample on the basis of nucleotide composition and read-depth. This was performed using four existing tools: Maxbin, MetaBAT, CONCOCT, DAS Tool. MAGs were screened for contamination using a [custom pipeline](link).
+MAGs were assembled from 3,810 human gut metagenomes from 15 different studies from geographically and phenotypically diverse human subjects. Metagenomes were assembled with MegaHIT and MAGs were constructed by binning contigs per-sample on the basis of nucleotide composition and read-depth. This was performed using four existing tools: Maxbin, MetaBAT, CONCOCT, DAS Tool. MAGs were screened for contamination using a [custom pipeline](https://github.com/snayfach/MAGpurify).
 
 <b>High quality MAGs (N=24345)</b>   
 [download link](http://bit.ly/HGM_hq_24345_fna)
