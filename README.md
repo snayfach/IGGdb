@@ -14,7 +14,7 @@ MAGs were assembled from 3,810 human gut metagenomes from 15 different studies f
 
 <b>High quality MAGs (N=24345)</b>   
 download from your browser: [download link](http://bit.ly/HGM_hq_24345_fna)  
-download via wget: `wget http://bit.ly/HGM_hq_24345_fna -O HGM_v1.0_hq_24345_fna.tar.bz2 && tar -jxvf HGM_v1.0_hq_24345_fna.tar.bz2`  
+download via wget: `wget http://bit.ly/HGM_hq_24345_fna -O HGM_v1.0_hq_24345_fna.tar.bz2`  
 
 * High quality MAGs meet the following criterea:
 	*  \>=90% estimated completeness
@@ -26,7 +26,7 @@ download via wget: `wget http://bit.ly/HGM_hq_24345_fna -O HGM_v1.0_hq_24345_fna
 
 <b>High and medium quality MAGs (N=60664)</b>   
 download from your browser: [download link](http://bit.ly/HGM_all_60664_fna)  
-download via wget: `wget http://bit.ly/HGM_all_60664_fna -O HGM_v1.0_all_60664_fna.tar.bz2 && tar -jxvf HGM_v1.0_all_60664_fna.tar.bz2` 
+download via wget: `wget http://bit.ly/HGM_all_60664_fna -O HGM_v1.0_all_60664_fna.tar.bz2` 
 
 * All MAGs are estimated to be >=50% complete and <=10% contaminated
 
@@ -36,7 +36,7 @@ The 60,664 genomes from the HGM dataset were integrated together with 145,917 re
 
 <b>Representative genomes for all species (N=23,790)</b>  
 download from your browser: [download link](http://bit.ly/IGG_all_23790_fna)  
-download via wget: `wget http://bit.ly/IGG_all_23790_fna -O IGG_v1.0_all_23790_fna.tar.bz2 && tar -jxvf IGG_v1.0_all_23790_fna.tar.bz2`
+download via wget: `wget http://bit.ly/IGG_all_23790_fna -O IGG_v1.0_all_23790_fna.tar.bz2`
 
 * The representative genome is the highest quality genome that is most closely related to other genomes in the same species
 * The selection was based on: completeness, contamination, N50, and % DNA identity  and % DNA alignment to other genomes in the same species
@@ -44,13 +44,13 @@ download via wget: `wget http://bit.ly/IGG_all_23790_fna -O IGG_v1.0_all_23790_f
 
 <b>Representative genomes for species with a high-quality genome (N=16,136)</b>  
 download via from your browser: [download link](http://bit.ly/IGG_hq_16136_fna)  
-download via wget: `wget http://bit.ly/IGG_hq_16136_fna -O IGG_v1.0_hq_16136_fna.tar.bz2 && tar -jxvf IGG_v1.0_hq_16136_fna.tar.bz2`
+download via wget: `wget http://bit.ly/IGG_hq_16136_fna -O IGG_v1.0_hq_16136_fna.tar.bz2`
 
 * This is a more conservative, higher-quality set of representative genomes 
 
 <b>Representative genomes for human gut species (N=4,558)</b>  
 download from your browser: [download link](http://bit.ly/IGG_gut_4558_fna)  
-download via wget: `wget http://bit.ly/IGG_gut_4558_fna -O IGG_v1.0_gut_4558_fna.tar.bz2 && tar -jxvf IGG_v1.0_gut_4558_fna.tar.bz2`  
+download via wget: `wget http://bit.ly/IGG_gut_4558_fna -O IGG_v1.0_gut_4558_fna.tar.bz2`  
 
 * Gut species were defined on the basis of 3 criteria:  
 	1) Contain a genome from an organism isolated from the gut (N=955), or  
@@ -60,7 +60,7 @@ download via wget: `wget http://bit.ly/IGG_gut_4558_fna -O IGG_v1.0_gut_4558_fna
 
 <b>Representative genomes for human gut species with a high-quality genome (N=2,935)</b>  
 download from your browser: [download link](http://bit.ly/IGG_gut_2935_fna)  
-download via wget: `wget http://bit.ly/IGG_gut_2935_fna -O IGG_v1.0_gut_2935_fna.tar.bz2 && tar -jxvf IGG_v1.0_gut_2935_fna.tar.bz2` 
+download via wget: `wget http://bit.ly/IGG_gut_2935_fna -O IGG_v1.0_gut_2935_fna.tar.bz2` 
 
 * 684 (23%) gut species are new while 2,251 (77%) contain a reference genome
 
