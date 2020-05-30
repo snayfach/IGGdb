@@ -30,9 +30,9 @@ download via wget: `wget http://bit.ly/HGM_all_60664_fna -O HGM_v1.0_all_60664_f
 
 * All MAGs are estimated to be >=50% complete and <=10% contaminated
 
-## Integrated gut genomes (IGG) dataset
+## Integrated genomes from the gut and other environments dataset (IGG)
 
-The 60,664 genomes from the HGM dataset were integrated together with 145,917 reference genomes from PATRIC and IMG, which include 16,525 publicly available MAGs from other studies. All 206,581 genomes met the MIMAG medium quality draft genome standard of >=50% completeness and <=10% contamination. Genomes were clustered into 23,790 species-level OTUs based on 95% genome-wide average nucleotide identity.  
+The 60,664 genomes from the HGM dataset were integrated together with 145,917 reference genomes from PATRIC and IMG, which include 16,525 publicly available MAGs from other studies <b> as well as genomes from other non-gut environments </b>. All 206,581 genomes met the MIMAG medium quality draft genome standard of >=50% completeness and <=10% contamination. Genomes were clustered into 23,790 species-level OTUs based on 95% genome-wide average nucleotide identity. 
 
 <b>Representative genomes for all species (N=23,790)</b>  
 download from your browser: [download link](http://bit.ly/IGG_all_23790_fna)  
