@@ -11,8 +11,8 @@ After download, all datasets can be unpacked using: `tar -xjvf <dataset_name>`
 MAGs were assembled from 3,810 human gut metagenomes from 15 different studies from geographically and phenotypically diverse human subjects. Metagenomes were assembled with MegaHIT and MAGs were constructed by binning contigs per-sample on the basis of nucleotide composition and read-depth. This was performed using four existing tools: Maxbin, MetaBAT, CONCOCT, DAS Tool. MAGs were screened for contamination using a [custom pipeline](https://github.com/snayfach/MAGpurify).
 
 <b>High quality MAGs (N=24345)</b>   
-download from your browser: [download link](https://bit.ly/HGM_hq_24345_fna)  
-download via wget: `wget http://bit.ly/HGM_hq_24345_fna -O HGM_v1.0_hq_24345_fna.tar.bz2`  
+download from your browser: [download link](https://portal.nersc.gov/cfs/m342/HGM_v1.0_hq_24345_fna.tar.bz2)  
+download via wget: `wget https://portal.nersc.gov/cfs/m342/HGM_v1.0_hq_24345_fna.tar.bz2`  
 
 * High quality MAGs meet the following criterea:
 	*  \>=90% estimated completeness
@@ -23,8 +23,8 @@ download via wget: `wget http://bit.ly/HGM_hq_24345_fna -O HGM_v1.0_hq_24345_fna
 	*  \>=5x read depth over >=90% of contigs
 
 <b>High and medium quality MAGs (N=60664)</b>   
-download from your browser: [download link](https://bit.ly/HGM_all_60664_fna)  
-download via wget: `wget http://bit.ly/HGM_all_60664_fna -O HGM_v1.0_all_60664_fna.tar.bz2` 
+download from your browser: [download link](https://portal.nersc.gov/cfs/m342/HGM_v1.0_all_60664_fna.tar.bz2)  
+download via wget: `wget https://portal.nersc.gov/cfs/m342/HGM_v1.0_all_60664_fna.tar.bz2` 
 
 * All MAGs are estimated to be >=50% complete and <=10% contaminated
 
@@ -35,22 +35,22 @@ Note: this set includes non-gut genomes
 The 60,664 genomes from the HGM dataset were integrated together with 145,917 reference genomes from PATRIC and IMG, which include 16,525 publicly available MAGs from other studies <b> as well as genomes from other non-gut environments </b>. All 206,581 genomes met the MIMAG medium quality draft genome standard of >=50% completeness and <=10% contamination. Genomes were clustered into 23,790 species-level OTUs based on 95% genome-wide average nucleotide identity. 
 
 <b>Representative genomes for all species (N=23,790)</b>  
-download from your browser: [download link](https://bit.ly/IGG_all_23790_fna)  
-download via wget: `wget http://bit.ly/IGG_all_23790_fna -O IGG_v1.0_all_23790_fna.tar.bz2`
+download from your browser: [download link](https://portal.nersc.gov/cfs/m342/IGG_v1.0_all_23790_fna.tar.bz2)  
+download via wget: `wget https://portal.nersc.gov/cfs/m342/IGG_v1.0_all_23790_fna.tar.bz2`
 
 * The representative genome is the highest quality genome that is most closely related to other genomes in the same species
 * The selection was based on: completeness, contamination, N50, and % DNA identity  and % DNA alignment to other genomes in the same species
 * High-quality genomes are picked as representatives when available
 
 <b>Representative genomes for species with a high-quality genome (N=16,136)</b>  
-download via from your browser: [download link](https://bit.ly/IGG_hq_16136_fna)  
-download via wget: `wget http://bit.ly/IGG_hq_16136_fna -O IGG_v1.0_hq_16136_fna.tar.bz2`
+download via from your browser: [download link](https://portal.nersc.gov/cfs/m342/IGG_v1.0_hq_16136_fna.tar.bz2)  
+download via wget: `wget https://portal.nersc.gov/cfs/m342/IGG_v1.0_hq_16136_fna.tar.bz2`
 
 * This is a more conservative, higher-quality set of representative genomes 
 
 <b>Representative genomes for human gut species (N=4,558)</b>  
-download from your browser: [download link](https://bit.ly/IGG_gut_4558_fna)  
-download via wget: `wget http://bit.ly/IGG_gut_4558_fna -O IGG_v1.0_gut_4558_fna.tar.bz2`  
+download from your browser: [download link](https://portal.nersc.gov/cfs/m342/IGG_v1.0_gut_4558_fna.tar.bz2)  
+download via wget: `wget https://portal.nersc.gov/cfs/m342/IGG_v1.0_gut_4558_fna.tar.bz2`  
 
 * Gut species were defined on the basis of 3 criteria:  
 	1) Contain a genome from an organism isolated from the gut (N=955), or  
@@ -59,8 +59,8 @@ download via wget: `wget http://bit.ly/IGG_gut_4558_fna -O IGG_v1.0_gut_4558_fna
 * 2,058 (45%) gut species are new while 2,500 (55%) contain a reference genome
 
 <b>Representative genomes for human gut species with a high-quality genome (N=2,935)</b>  
-download from your browser: [download link](https://bit.ly/IGG_gut_2935_fna)  
-download via wget: `wget http://bit.ly/IGG_gut_2935_fna -O IGG_v1.0_gut_2935_fna.tar.bz2` 
+download from your browser: [download link](https://portal.nersc.gov/cfs/m342/IGG_v1.0_gut_2935_fna.tar.bz2)  
+download via wget: `wget https://portal.nersc.gov/cfs/m342/IGG_v1.0_gut_2935_fna.tar.bz2` 
 
 * 684 (23%) gut species are new while 2,251 (77%) contain a reference genome
 
@@ -70,24 +70,24 @@ download via wget: `wget http://bit.ly/IGG_gut_2935_fna -O IGG_v1.0_gut_2935_fna
 Phylogenetic trees were constructed for all Bacterial and Archaeal species in the IGGdb using concatenated alignments of conserved, single-copy marker gene families from the PhyEco database (N=88 for Bacteria and 100 for Archaea). Protein-based multiple sequence alignment was performed using FAMSA v1.2.5, which is designed for fast and accurate alignment of thousands of sequences. Gene alignments were concated together, columns with >15% gaps were dropped, and seuqneces with >70% gaps and were removed (N=39). FastTree2 was used to build a maximum likelihood phylogeny.
 
 <b>All Bacterial species (N=22,515)</b>  
-[download alignments](https://bit.ly/IGG_bact_22515_msa)  
-[download tree](https://bit.ly/IGG_bact_22515_tre)
+[download alignments](https://portal.nersc.gov/cfs/m342/IGG_bact_22515_msa)  
+[download tree](https://portal.nersc.gov/cfs/m342/IGG_bact_22515_tre)
 
 <b>All Archaeal species (N=1,236)</b>  
-[download alignments](https://bit.ly/IGG_arch_1236_msa)   
-[download tree](https://bit.ly/IGG_arch_1236_tre)
+[download alignments](https://portal.nersc.gov/cfs/m342/IGG_arch_1236_msa)   
+[download tree](https://portal.nersc.gov/cfs/m342/IGG_arch_1236_tre)
 
 
 ## Metadata for the HGM and IGG datasets
 
 <b>Reference genomes and MAGs from HGM dataset (N=206,581)</b>  
-[download link](https://bit.ly/IGG_genome_info_206581)
+[download link](https://portal.nersc.gov/cfs/m342/IGG_genome_info_206581.tsv)
 
 * Contains rich metadata on all reference genomes and MAGs, including quality information and habitat
 * Completeness and contamination estimates were made using [CheckM](https://github.com/Ecogenomics/CheckM)
 
 <b>All species from the IGGdb (N=23,790)</b>  
-[download link](https://bit.ly/IGG_species_info_23790)  
+[download link](https://portal.nersc.gov/cfs/m342/IGG_species_info_23790.tsv)  
 
 * Contains rich metadata on each species, including taxonomic information
 * Species were taxonomically annotated based on the [Genome Taxonomy Database](https://github.com/Ecogenomics/GTDBTk)
