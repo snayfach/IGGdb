@@ -1,7 +1,5 @@
 # IGGdb: integrated genomes from the gut microbiome and other environments
 
-The current dataset is part of a pre-publication release.
-
 We constructed the IGGdb using data from a number of domains, including PATRIC, IMG, and MAGs assembled from 3,810 publicly available human gut metagenomes from the NCBI SRA. If this repository is useful, please consider additionally citing the individual sources and studies the data was derived from.
 
 Note that many of the genomes in this repository were assembled from metagenomes. Lower quality genomes and MAGs need to be treated with special care to avoid issues with missingness, contamination, and short contigs. When in doubt, restrict your analysis to the high-quality genome sets.
@@ -31,6 +29,8 @@ download via wget: `wget http://bit.ly/HGM_all_60664_fna -O HGM_v1.0_all_60664_f
 * All MAGs are estimated to be >=50% complete and <=10% contaminated
 
 ## Integrated genomes from the gut and other environments dataset (IGG)
+
+Note: this set includes non-gut genomes
 
 The 60,664 genomes from the HGM dataset were integrated together with 145,917 reference genomes from PATRIC and IMG, which include 16,525 publicly available MAGs from other studies <b> as well as genomes from other non-gut environments </b>. All 206,581 genomes met the MIMAG medium quality draft genome standard of >=50% completeness and <=10% contamination. Genomes were clustered into 23,790 species-level OTUs based on 95% genome-wide average nucleotide identity. 
 
