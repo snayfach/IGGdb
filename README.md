@@ -11,8 +11,8 @@ After download, all datasets can be unpacked using: `tar -xjvf <dataset_name>`
 MAGs were assembled from 3,810 human gut metagenomes from 15 different studies from geographically and phenotypically diverse human subjects. Metagenomes were assembled with MegaHIT and MAGs were constructed by binning contigs per-sample on the basis of nucleotide composition and read-depth. This was performed using four existing tools: Maxbin, MetaBAT, CONCOCT, DAS Tool. MAGs were screened for contamination using a [custom pipeline](https://github.com/snayfach/MAGpurify).
 
 <b>High quality MAGs (N=24345)</b>   
-download from your browser: [download link](https://portal.nersc.gov/cfs/m342/HGM_v1.0_hq_24345_fna.tar.bz2)  
-download via wget: `wget https://portal.nersc.gov/cfs/m342/HGM_v1.0_hq_24345_fna.tar.bz2`  
+download from your browser: [download link](https://portal.nersc.gov/cfs/m342/HGM/HGM_v1.0_hq_24345_fna.tar.bz2)  
+download via wget: `wget https://portal.nersc.gov/cfs/m342/HGM/HGM_v1.0_hq_24345_fna.tar.bz2`  
 
 * High quality MAGs meet the following criterea:
 	*  \>=90% estimated completeness
@@ -23,8 +23,8 @@ download via wget: `wget https://portal.nersc.gov/cfs/m342/HGM_v1.0_hq_24345_fna
 	*  \>=5x read depth over >=90% of contigs
 
 <b>High and medium quality MAGs (N=60664)</b>   
-download from your browser: [download link](https://portal.nersc.gov/cfs/m342/HGM_v1.0_all_60664_fna.tar.bz2)  
-download via wget: `wget https://portal.nersc.gov/cfs/m342/HGM_v1.0_all_60664_fna.tar.bz2` 
+download from your browser: [download link](https://portal.nersc.gov/cfs/m342/HGM/HGM_v1.0_all_60664_fna.tar.bz2)  
+download via wget: `wget https://portal.nersc.gov/cfs/m342/HGM/HGM_v1.0_all_60664_fna.tar.bz2` 
 
 * All MAGs are estimated to be >=50% complete and <=10% contaminated
 
